@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nazifi</title>
+</head>
+
+<body>
+    <header>
+        
+        <img class="img" style="height: 150px; width: 150px" src="C:\Users\y\Desktop\nazi.jpg" alt="image not available">
+        <h1> ATELIER DE COUTURE OUMMI</h1>
+    </header>
+
+    <main>
+       <button class="btn" onclick="male()">MAZA</button>
+       <button class="btn" onclick="female()">MATA</button>
+       <div class="quick_links">   
+        <h1 id="uhrack">sababbin dorawa</h1>  
+
+        <img class="images" src="C:\Users\y\Desktop\genuine\Dev-uhrack\software development\web development\nazifi\style\images\st7.jpg" alt="image not available">
+
+
+
+        <img class="images" src="C:\Users\y\Desktop\genuine\Dev-uhrack\software development\web development\nazifi\style\images\st2.jpg" alt="image not available">
+        
+
+        <img class="images" src="C:\Users\y\Desktop\genuine\Dev-uhrack\software development\web development\nazifi\style\images\st4.jpg" alt="image not available">
+        
+
+        <img class="images" src="C:\Users\y\Desktop\genuine\Dev-uhrack\software development\web development\nazifi\style\images\st5.jpg" alt="image not available">
+       </div>
+       <form action="male.html">
+        Aikamana sako ko ka tuntubemu tanan
+        <label for="suna">
+            <input class="form1" type="text" placeholder ="suna:" name="suna" required>
+        </label>
+        <label for="email">
+            <input id="aminu" class="form1" type="email" placeholder="email:" name="email" required>
+            
+        </label>
+        <label for="message">
+            <textarea name="message" class="form1"></textarea>
+        </label>
+        <input type="submit" id="submit" value="aika">
+       </form>
+    </main>
+    <footer>
+<div class="contact"><h1>CONTACT_US</h1>
+<h1>tel: +22797460668</h1></div>
+<h1>email: nazifihassan7@gmail.com</h1>
+<div id="tik"><a href="https://wa.me/qr/WVNTG4KANKXTJ1"><button>whatsapp</button></a>
+<a href=""><button>tiktok</button></a></div>
+    </footer>
+</body>
+
+
+</html>
+<style>
+    #tik{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: fit-content;
+        width: 200px;
+      
+       
+    }
+    #submit{
+        border-radius: 50px;
+        background-color: grey;
+        height: 30px;
+        width: 150px;
+    }
+    .form1{
+        height: 35px;
+        width:  300px;
+    }
+    form {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: linear-gradient(darkcyan, aquamarine);
+        height: 400PX;
+        width: 400px;
+        margin-right: 0;
+        gap: 10px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+       
+        margin: 0 auto;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        width: 100%;
+        height: 500px;
+        color: darkcyan;
+   
+    }
+    .btn:hover{
+        height: 40px;
+        width: 300px;
+    }
+    .btn {
+        cursor: pointer;
+        height: 50px;
+        width: 400px;
+        border-radius: 50px;
+        border:solid;
+        margin-top: 20px;
+        border-color:darkcyan;
+        background: none;
+    }
+    .btn:focus {
+        background-color: gray;
+        transform:translateX(30px);
+    }
+
+    main{
+       
+        flex: 1;
+            padding: 2em;
+            margin-top: 90px;
+            z-index: 0;
+        margin-top: 20px
+    }
+    body {
+        min-height : 100vh;
+        margin: 0 ;
+        display: flex;
+        flex-direction: column;
+
+        background-color: aquamarine;
+    }
+
+    header {
+        text-align: center;
+        background-color: darkcyan;
+    }
+    .images{
+       margin-top: 20px;
+       cursor: pointer;
+     border: solid;
+     border-color: darkcyan;
+    border-radius: 50px;
+        width: 400px;
+        height: 400px;
+
+    }
+</style>
+<script>
+    function male() {
+     
+      
+        window.location = "male.html"
+              
+             
+         }
+     
+  
+    
+    function female() {
+     
+      
+   window.location = "female.html"
+         
+        
+    }
+
+    
+</script> 
